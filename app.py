@@ -99,8 +99,8 @@ def admin():
                     st.write('Name : ',i[1])
                     st.write('Registration Date : ',i[2])
                     st.write('ID : ',i[0])
-                    st.write('Status : ',i[3])
-                    if i[3]=='In Progress':
+                    st.write('Status : ',i[4])
+                    if i[4]=='In Progress':
                         Accept=st.button('Accept',key=i[0])
                         if Accept:
                             st.write('Accepted')
